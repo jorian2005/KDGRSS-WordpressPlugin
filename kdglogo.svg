@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    version="1.1" id="Layer_1" 
+    x="0px" y="0px" 
+    viewBox="0 0 150 120" 
+    style="enable-background:new 0 0 20 20;" 
+    xml:space="preserve" 
+    height="20px" width="20px">
+<style type="text/css">
+
+  :root {
+    --kdgm-green: #39B54A;
+    --highlight: #95D738;
+  }
+
+  .logo {
+    position: relative;
+    fill:#39B54A;
+    animation-timing-function: ease-in-out;
+  }
+
+  .pulse {
+    animation: pulse 5s infinite;
+  }
+
+  .waveSmall { animation: pulse 5s infinite, waveSmall 5s infinite; }
+  .waveMiddle { animation: pulse 5s infinite, waveMiddle 5s infinite; }
+  .waveBig { animation: pulse 5s infinite, waveBig 5s infinite; }
+
+  @keyframes waveSmall {
+    0% { fill: var(--kdgm-green) }
+    5% { fill: var(--highlight) }
+    20% { fill: var(--kdgm-green) }
+  }
+
+  @keyframes waveMiddle {
+    0% { fill: var(--kdgm-green) }
+    10% { fill: var(--highlight) }
+    25% { fill: var(--kdgm-green) }
+  }
+
+  @keyframes waveBig {
+    0% { fill: var(--kdgm-green) }
+    20% { fill: var(--highlight) }
+    30% { fill: var(--kdgm-green) }
+  }
+
+</style>
+
+<g transform="scale(1.5)">
+  <path class="logo waveBig" d="M60.8,1.4c-32,0-58.1,26.1-58.1,58.1c0,2.8,2.3,2.6,5.1,2.6s5.1,0.2,5.1-2.6c0-26.4,21.5-47.8,47.8-47.8  c2.8,0,2.6-2.3,2.6-5.1C63.4,3.7,63.6,1.4,60.8,1.4"/>
+  <path class="logo waveMiddle" d="M60.8,19c-22.3,0-40.5,18.1-40.5,40.5c0,2.8,2.3,2.6,5.1,2.6s5.1,0.2,5.1-2.6c0-16.6,13.5-30.2,30.2-30.2  c2.8,0,2.6-2.3,2.6-5.1C63.4,21.3,63.6,19,60.8,19"/>
+  <path class="logo waveSmall" d="M60.8,36.7C48.2,36.7,38,46.9,38,59.5c0,2.8,2.3,2.6,5.1,2.6s5.1,0.2,5.1-2.6c0-3.4,1.4-6.4,3.5-8.7l0.3-0.3  c2.3-2.2,5.3-3.5,8.7-3.5c2.8,0,2.6-2.3,2.6-5.1C63.4,39,63.6,36.7,60.8,36.7"/>
+  <path class="logo pulse" d="M89.4,19H78.3V4c0-2.8-2.3-2.6-5.1-2.6C70.3,1.4,68,1.2,68,4v55.5c0,2.8,2.3,2.6,5.1,2.6c2.8,0,5.1,0.2,5.1-2.6  V29.3h11.1c2.8,0,2.6-2.3,2.6-5.1C92.1,21.3,92.3,19,89.4,19"/>
+</g>
+</svg>
